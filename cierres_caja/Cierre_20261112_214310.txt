@@ -1,0 +1,30 @@
+================================================
+   REPORTE DE CIERRE Y ARQUEO DE CAJA
+   Abarrotes Henry
+================================================
+Fecha y Hora : 12/11/2026 09:43 PM
+Responsable  : HENRY
+Tickets Hoy  : 13
+------------------------------------------------
+1. FUSIÓN DE INGRESOS Y GASTOS
+   Base Inicial Caja      : $10.00
+   (+) Ventas Efectivo    : $57.35
+   (-) Gastos Efectivo    : -$0.00
+   (=) Efectivo Esperado  : $67.35
+   Efectivo Contado       : $10.00
+   Diferencia Efectivo    : $-57.35
+------------------------------------------------
+2. ARQUEO DE TRANSFERENCIAS BANCARIAS
+   (+) Ventas Transf.     : $9.30
+   (-) Gastos Transf.     : -$0.00
+   (=) Transf. Esperadas  : $9.30
+   Transf. Verificadas    : $9.30
+   Diferencia Transf.     : $+0.00
+------------------------------------------------
+3. RESUMEN CONSOLIDADO
+   Total Vendido          : $66.65
+   Total Gastos           : -$0.00
+   Utilidad Neta Turno    : $66.65
+   ESTADO DEL ARQUEO      : Faltante: -$57.35
+   Observaciones          : Sin novedades en turno
+================================================

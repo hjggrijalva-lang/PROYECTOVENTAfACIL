@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Comprobante Ticket #0014</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #f0f2f5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+        margin: 0;
+    }
+    .ticket {
+        background: #ffffff;
+        width: 320px;
+        padding: 22px 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        color: #1a202c;
+    }
+    .center { text-align: center; }
+    h2 { margin: 0 0 4px 0; font-size: 19px; color: #1f8b40; }
+    .meta { font-size: 12px; color: #4a5568; line-height: 1.5; }
+    .divider { border-top: 1px dashed #cbd5e0; margin: 12px 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { text-align: left; font-size: 11px; color: #718096; border-bottom: 1px solid #e2e8f0; padding-bottom: 6px; }
+    th.num, td.num { text-align: right; }
+    td { padding: 7px 0; vertical-align: top; border-bottom: 1px dotted #edf2f7; }
+    td.cant { width: 32px; font-weight: bold; }
+    td.desc small { color: #718096; font-size: 11px; }
+    .total-box {
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        font-weight: bold;
+        color: #1f8b40;
+        margin: 8px 0;
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        margin: 4px 0;
+        color: #2d3748;
+    }
+    .footer { text-align: center; font-size: 12px; color: #718096; margin-top: 14px; }
+    .btn-print {
+        margin-top: 18px;
+        background: #1f8b40;
+        color: #fff;
+        border: none;
+        padding: 11px 22px;
+        border-radius: 24px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .btn-print:hover { background: #186e32; }
+    @media print {
+        body { background: #fff; padding: 0; }
+        .ticket { box-shadow: none; width: 100%; max-width: 80mm; padding: 6px; }
+        .btn-print { display: none; }
+    }
+</style>
+</head>
+<body>
+    <div class="ticket">
+        <div class="center">
+            <h2>Abarrotes Henry</h2>
+            <div class="meta">
+                COMPROBANTE DE PAGO<br>
+                <strong>Ticket #0014</strong><br>
+                Fecha: 12/11/2026 08:26:39 PM<br>
+                Atendido por: HENRY
+            </div>
+        </div>
+        <div class="divider"></div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Cant</th>
+                    <th>Producto</th>
+                    <th class="num">Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            <tr>
+                <td class="cant">1</td>
+                <td class="desc">Helado<br><small>$0.50 c/u</small></td>
+                <td class="num">$0.50</td>
+            </tr>
+            
+            <tr>
+                <td class="cant">1</td>
+                <td class="desc">coca<br><small>$0.65 c/u</small></td>
+                <td class="num">$0.65</td>
+            </tr>
+            
+            <tr>
+                <td class="cant">1</td>
+                <td class="desc">pepsi<br><small>$0.50 c/u</small></td>
+                <td class="num">$0.50</td>
+            </tr>
+            
+            <tr>
+                <td class="cant">1</td>
+                <td class="desc">Snacks Mix<br><small>$2.00 c/u</small></td>
+                <td class="num">$2.00</td>
+            </tr>
+            
+            <tr>
+                <td class="cant">1</td>
+                <td class="desc">Galleta Choco<br><small>$1.50 c/u</small></td>
+                <td class="num">$1.50</td>
+            </tr>
+            
+            </tbody>
+        </table>
+        <div class="divider"></div>
+        <div class="total-box">
+            <span>TOTAL PAGADO</span>
+            <span>$5.15</span>
+        </div>
+        
+            <div class="row"><span>Método de Pago:</span><strong>Efectivo</strong></div>
+        
+            <div class="row"><span>Efectivo Recibido:</span><strong>$10.00</strong></div>
+            <div class="row"><span>Cambio Entregado:</span><strong>$4.85</strong></div>
+            
+        <div class="divider"></div>
+        <div class="footer">
+            ¡Gracias por su compra!<br>
+            Documento generado por VentaFácil POS
+        </div>
+    </div>
+    <button class="btn-print" onclick="window.print()">Imprimir / Guardar PDF</button>
+</body>
+</html>
